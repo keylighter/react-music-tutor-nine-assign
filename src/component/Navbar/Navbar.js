@@ -12,6 +12,7 @@ const Navbar = () => {
                     </div>
                     <div className='col-md-8'>
                         <ul className='d-flex align-items-end justify-content-end'>
+                            {/* Link to router */}
                             <Link to='/home' className="item">
                                 <li >Home</li>
                             </Link>

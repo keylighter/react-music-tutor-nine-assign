@@ -46,7 +46,10 @@ const About = () => {
             </div>
 
 
+            {/* Instructor Introduction */}
+
             <div >
+
                 <div>
                     <h1 className='pb-5 pt-5'>Our Instructors</h1>
                 </div>

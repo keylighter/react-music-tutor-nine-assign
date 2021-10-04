@@ -20,7 +20,7 @@ const Cources = () => {
             <h1 className='pt-5 pb-5'>Our Cources</h1>
 
             <div className='row justify-content-center ps-5 ms-5  gy-4 '>
-
+                {/* mapping cources */}
                 {
                     cources?.map(cource => (
                         <div className='col-md-5'>

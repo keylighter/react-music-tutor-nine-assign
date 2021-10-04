@@ -4,12 +4,14 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React from "react";
+//react router dom 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
+//components
 import Home from './component/Home/Home';
 import About from './component/About/About';
 import Cources from './component/Cources/Cources';
@@ -21,7 +23,7 @@ import Footer from './component/Footer/Footer';
 function App() {
   return (
     <div className="App">
-
+      {/* Routers */}
       <Router>
 
         <Switch>
@@ -51,6 +53,7 @@ function App() {
             <Footer></Footer>
           </Route>
 
+          {/* error message */}
           <Route path='*'>
             <Error></Error>
           </Route>

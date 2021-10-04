@@ -8,6 +8,8 @@ const Home = () => {
             <div className='row-container'>
                 <div className='row justify-content-center align-items-center pt-5 pb-5 '>
 
+                    {/* Our Offering Section */}
+
                     <h3 className='pb-5 fw-bold'>We Offer</h3>
 
                     <div className='col-md-2'>
@@ -42,7 +44,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
+            {/* Cources */}
             <Cources></Cources>
         </div>
     );

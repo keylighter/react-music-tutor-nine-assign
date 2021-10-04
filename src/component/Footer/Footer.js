@@ -7,6 +7,8 @@ const Footer = () => {
         <div>
             <div className='footer-container'>
                 <div className='row justify-content-around align-items-center pt-5'>
+
+                    {/* company info */}
                     <div className="col-md-3">
 
                         <div className="left-container text-start">
@@ -23,6 +25,8 @@ const Footer = () => {
                             </p>
                         </div>
                     </div>
+
+                    {/* Quick Link section */}
 
                     <div className="col-md-2">
                         <h4>Quick Links</h4>
@@ -43,7 +47,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-
+                    {/* Contact and newsletter section */}
                     <div className="col-md-5">
                         <div className="pb-4">
                             <h3>Sign up for getting newsletter!!</h3>
