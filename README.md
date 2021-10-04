@@ -4,6 +4,7 @@
 
 ## We Used Following Tools
 
+* React library for scripting
 * React router for router.
 * Vanila Css and Bootstrap for designing.
 
