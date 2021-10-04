@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className='container'>
                 <div className='row pt-5 align-items-center justify-content-center'>
                     <div className='col-md-2'>
-                        <h2 className='text-danger bg-warning rounded'>Musical Tutor</h2>
+                        <h2 className='nav-title'>Musical Tutor</h2>
                     </div>
                     <div className='col-md-8'>
                         <ul className='d-flex align-items-end justify-content-end'>

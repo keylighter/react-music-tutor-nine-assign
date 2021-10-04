@@ -16,7 +16,7 @@ const Cources = () => {
     // console.log(cources);
 
     return (
-        <div>
+        <div className='pb-5'>
             <h1 className='pt-5 pb-5'>Our Cources</h1>
 
             <div className='row justify-content-center ps-5 ms-5  gy-4 '>

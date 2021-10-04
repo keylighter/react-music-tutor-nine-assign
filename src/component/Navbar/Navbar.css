@@ -1,12 +1,18 @@
+.nav-title{
+  color: coral;
+  font-weight: 700;
+}
+
+
 .item {
     list-style: none;
     margin-right: 30px;
     font-size: 22px;
     font-weight: 600;
-    color: rgb(236, 0, 0);
+    color: rgba(197, 27, 27, 0.795);
     cursor: pointer;
     padding: 5px;
-    background-color: rgb(255, 203, 197);
+    background-color: rgb(255, 233, 231);
     border-radius: 6px;
     text-decoration: none;
   }
