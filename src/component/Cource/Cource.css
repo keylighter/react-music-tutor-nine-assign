@@ -1,0 +1,16 @@
+.card{
+    background-color: rgb(255, 244, 230);
+}
+
+.cource-img{
+    height: 350px;
+
+}
+
+.enroll-button{
+    padding: 9px 12px;
+    border-radius: 7px;
+    font-weight: 500;
+    color: antiquewhite;
+    background-color:   rgb(231, 127, 42);;
+}
