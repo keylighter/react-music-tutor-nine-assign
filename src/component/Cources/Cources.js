@@ -13,7 +13,7 @@ const Cources = () => {
             .then(data => setCources(data));
     }, []);
 
-    // console.log(cources);
+
 
     return (
         <div className='pb-5'>
@@ -25,7 +25,7 @@ const Cources = () => {
                     cources?.map(cource => (
                         <div className='col-md-5'>
                             <Cource
-                                key={cource.id}
+                                key={cource?.id}
                                 cource={cource}
                             ></Cource>
                         </div>

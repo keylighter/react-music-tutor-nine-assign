@@ -2,7 +2,7 @@ import React from 'react';
 import './Cource.css'
 const Cource = (props) => {
     // destructuring cource object
-    const { name, img, duration, price } = props.cource;
+    const { name, img, duration, price } = props?.cource;
     return (
         <div>
 
